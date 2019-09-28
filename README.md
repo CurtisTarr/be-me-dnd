@@ -5,10 +5,10 @@ Quick DnD 5E random character generator
 - Python 3
 
 ## Running
-- Clone repo
-- Open terminal
-- Navigate to the repo
-- Run `python3 be_me_dnd.py`
+1. Clone repo
+2. Open terminal
+3. Navigate to the repo
+4. Run `python3 be_me_dnd.py`
 
 ## Example output
 ```
