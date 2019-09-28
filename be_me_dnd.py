@@ -36,15 +36,10 @@ def get_random_name_from_file(filename: str):
     return names[random.randint(0, len(names) - 1)].strip().capitalize()
 
 def gen_name():
-    firstname = get_random_name_from_file(FIRST_NAMES)
-    lastname = get_random_name_from_file(LAST_NAMES)
-    return firstname + " " + lastname
+    return get_random_name_from_file(FIRST_NAMES) + " " + get_random_name_from_file(LAST_NAMES)
 
 if __name__ == "__main__":
-    playerStats = roll_stats()
-    playerRace = gen_race()
-    playerClass = gen_class()
-    playerName = gen_name()
-    print("> Be me " + playerName)
-    print("> " + playerRace + " " + playerClass)
-    print("> " + str(playerStats))
+    print("> Be me %s" % gen_name())
+    print("> %s %s" % (gen_race(), gen_class()))
+    for stat, value in roll_stats().items():
+        print ("> %s: %d" % (stat, value))

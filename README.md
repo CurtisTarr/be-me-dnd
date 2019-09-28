@@ -12,7 +12,12 @@ Quick DnD 5E random character generator
 
 ## Example output
 ```
-> Be me Elmo Slomkowski
-> Half-Orc Paladin
-> {'Strength': 11, 'Dexterity': 11, 'Constitution': 4, 'Intelligence': 9, 'Wisdom': 7, 'Charisma': 13}
+> Be me Sammie Freeburger
+> Halfling Paladin
+> Strength: 4
+> Dexterity: 6
+> Constitution: 5
+> Intelligence: 9
+> Wisdom: 13
+> Charisma: 5
 ```
